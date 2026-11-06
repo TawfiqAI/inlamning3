@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rapport för uppgift 3 i Webbteknik 1</title>
+    <style>
+      html {
+        font-size: 16px;
+      }
+
+      body {
+        background-color: #fff;
+        color: #000;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        max-width: 80ch;
+        margin-left: 2ch;
+        margin-right: 2ch;
+        line-height: 1.5;
+      }
+
+      header,
+      section {
+        border-bottom: 1px solid #999;
+        padding-bottom: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      p {
+        text-align: justify;
+      }
+
+      h2 {
+        margin-bottom: 0.2em;
+      }
+
+      h3 {
+        margin-top: 1em;
+        margin-bottom: 0.2em;
+      }
+
+      ul,
+      ol {
+        margin-top: 0.4em;
+      }
+
+      li {
+        margin-bottom: 0.4em;
+      }
+
+      code {
+        background-color: #f2f2f2;
+        padding: 0.1em 0.3em;
+        border-radius: 3px;
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Rapport för uppgift 3</h1>
+      <p>
+        <strong>Kurs:</strong> Webbteknik 1 (1ME321) |
+        <strong>Webbplats:</strong> Braås Brödbod
+      </p>
+    </header>
+
+    <main>
+      <!-- 1. Syfte och målgrupp -->
+      <section>
+        <h2>1. Syfte och målgrupp</h2>
+        <p>
+          I denna uppgift har en webbplats skapats för det lokala
+          hantverksbageriet Braås Brödbod. Bageriet fokuserar på dagsfärskt
+          surdegsbröd och traditionellt fikabröd bakat på ekologiska råvaror.
+        </p>
+        <p>
+          Syftet med webbplatsen är att etablera en digital närvaro för
+          bageriet. Webbplatsen ska presentera det fasta och säsongsbetonade
+          sortimentet, informera om öppettider och verksamheten samt göra det
+          enkelt för besökare att förhandsbeställa bröd och bakverk inför helger
+          och tillställningar.
+        </p>
+        <p>
+          Målgruppen består främst av närboende och besökare i närområdet som
+          uppskattar lokalt hantverksbröd. Denna målgrupp kan delas in i två
+          delgrupper: privatkunder som söker dagsfärskt frukost- och fikabröd,
+          samt kunder och föreningar som vill förbeställa större volymer eller
+          specialbeställningar till helger och festligheter.
+        </p>
+        <h3>Användarnas behov</h3>
+        <ul>
+          <li>
+            Hitta information om bageriets öppettider, adress och kontaktvägar.
+          </li>
+          <li>
+            Få en tydlig överblick över det aktuella sortimentet med priser,
+            ingredienser och allergeninformation.
+          </li>
+          <li>
+            Enkelt kunna skicka in förfrågningar och förhandsbeställningar via
+            ett webbformulär.
+          </li>
+          <li>
+            Ta del av information om bageriets råvaror och hantverksmetoder.
+          </li>
+        </ul>
+      </section>
+
+      <!-- 2. Kravspecifikation -->
+      <section>
+        <h2>2. Kravspecifikation</h2>
+        <h3>Innehåll</h3>
+        <ul>
+          <li>
+            Webbplatsen ska presentera bageriets kontaktuppgifter, besöksadress
+            och aktuella öppettider.
+          </li>
+          <li>
+            Webbplatsen ska innehålla en presentation av bageriets filosofi,
+            råvaror och hantverksmässiga bakmetoder.
+          </li>
+          <li>
+            Webbplatsen ska innehålla ett strukturerat sortiment uppdelat i
+            kategorierna surdegsbröd, fikabröd/bullar och tårtor.
+          </li>
+          <li>
+            Varje produkt i sortimentet ska presenteras med produktnamn, pris
+            samt information om ingredienser och allergener.
+          </li>
+          <li>
+            Webbplatsen ska ge tydliga instruktioner för hur och när
+            förhandsbeställningar ska göras inför helgen.
+          </li>
+        </ul>
+        <h3>Funktion</h3>
+        <ul>
+          <li>
+            Användaren ska kunna navigera mellan webbplatsens huvuddelar via en
+            genomgående global meny.
+          </li>
+          <li>
+            Användaren ska inom sortimentsavdelningen kunna växla mellan de
+            olika varukategorierna via en lokal undermeny.
+          </li>
+          <li>
+            Användaren ska via ett interaktivt formulär kunna skicka en
+            beställningsförfrågan med val av datum, produkttyp och fritext.
+          </li>
+        </ul>
+      </section>
+
+      <!-- 3. Beskrivning av arbetet -->
+      <section>
+        <h2>3. Beskrivning av arbetet</h2>
+        <p>
+          Arbetet med webbplatsen har genomförts strukturerat utifrån Jesse
+          James Garretts modell med fem plan, där varje plan bygger på besluten
+          från föregående nivå (Garrett, 2011, s. 21). Processen rör sig stegvis
+          från abstrakta idéer till en konkret och fungerande webbplats.
+        </p>
+        <p>
+          <strong>1. Strategiplanet (The Strategy Plane):</strong> Projektet
+          inleddes med att definiera webbplatsens syfte ur bageriets synvinkel
+          samt undersöka målgruppens behov (Garrett, 2011, s. 36). Genom
+          användarsegmentering (Garrett, 2011, s. 42) delades besökarna in i två
+          tydliga grupper: vardagskunder och beställningskunder. Detta
+          klargjorde vilka informations- och beställningsbehov webbplatsen
+          behövde möta.
+        </p>
+        <p>
+          <strong>2. Omfattningsplanet (The Scope Plane):</strong> Utifrån
+          användarnas behov formulerades en mätbar kravspecifikation uppdelad i
+          innehållskrav och funktionskrav (Garrett, 2011, s. 68–71). Detta gav
+          en tydlig ram för vilka sidor, textdelar och funktioner som behövde
+          byggas.
+        </p>
+        <p>
+          <strong>3. Strukturplanet (The Structure Plane):</strong> Här togs
+          informationsarkitekturen och interaktionsdesignen fram (Garrett, 2011,
+          s. 80–89). Webbplatsen strukturerades hierarkiskt med en startsida, en
+          sortimentsavdelning bestående av tre undersidor samt separata sidor
+          för verksamhetsinformation och beställning. Detta motiverade både den
+          övergripande och den lokala navigeringen (Garrett, 2011, s. 92–98).
+        </p>
+        <p>
+          <strong>4. Skelettplanet (The Skeleton Plane):</strong> I detta skede
+          planerades layouten och placeringen av gränssnittskomponenter, menyer
+          och information (Garrett, 2011, s. 108–114). Navigeringen delades upp
+          i en global meny i sidhuvudet och en lokal meny för sortimentssidorna
+          (Garrett, 2011, s. 120–121). Formuläret på beställningssidan försågs
+          med tydliga fält och tillhörande ledtexter för att underlätta för
+          användaren.
+        </p>
+        <p>
+          <strong>5. Ytplanet (The Surface Plane):</strong> Slutligen
+          implementerades den visuella formgivningen med ren HTML5 och CSS
+          (Garrett, 2011, s. 134–138). Utvecklingen skedde med Mobile-First,
+          vilket innebär att baslayouten anpassades för mobilskärmar och
+          därefter utvidgades med CSS Grid och Flexbox vid bredare skärmlägen
+          (Garrett, 2011, s. 141–142). Färgerna valdes i varma jord- och
+          brödtoner för att spegla bageriets hantverk (Garrett, 2011, s.
+          145–148).
+        </p>
+      </section>
+
+      <!-- 4. Bilder -->
+      <section>
+        <h2>4. Bilder</h2>
+        <p>
+          Bilderna på webbplatsen har hämtats från Unsplash (fria för användning
+          och bearbetning). För att anpassa bilderna för webbpublicering och
+          garantera snabba laddtider har de beskurits och optimerats med hjälp
+          av webbverktyget <strong>Squoosh (squoosh.app)</strong>
+          i enlighet med de optimeringsprinciper som beskrivs av Niederst
+          Robbins (2018, s. 773–785):
+        </p>
+        <ul>
+          <li>
+            <strong>Beskärning och motivanpassning:</strong> Bilderna beskars
+            för att framhäva brödet och bakverken. För mobila skärmar gjordes en
+            tätare beskärning runt motivet, medan en bredare liggande bild
+            sparades för större skärmar.
+          </li>
+          <li>
+            <strong>Dimensioner (Resize):</strong> I Squoosh skalades bilderna
+            ner från originalens höga upplösning till anpassade
+            visningsstorlekar (1200 px bredd för skrivbordsvy och 600 px för
+            mobilvy) för att undvika onödig databelastning på mobila enheter.
+          </li>
+          <li>
+            <strong>Komprimering och filformat:</strong> Bilderna komprimerades
+            via Squoosh (MozJPEG) till cirka 75 % kvalitet, vilket sänkte
+            filstorlekarna till under 100 kB per bild med god visuell kvalitet
+            bevarad.
+          </li>
+        </ul>
+        <p>
+          Picture-elementet används på <code>surdeg.html</code>,
+          <code>fikabrod.html</code> och <code>tartor.html</code>. Med en media
+          query i source-taggen (<code>media="(min-width: 768px)"</code>) visas
+          en bred liggande bild på större skärmar, medan en snävare beskuren
+          version visas på mobila enheter (art direction).
+        </p>
+      </section>
+
+      <!-- 5. Utvärdering mot kravspecifikationen -->
+      <section>
+        <h2>5. Utvärdering mot kravspecifikationen</h2>
+
+        <h3>Innehåll</h3>
+        <ul>
+          <li>
+            <strong>Krav:</strong> Webbplatsen ska presentera bageriets
+            kontaktuppgifter, besöksadress och aktuella öppettider.<br />
+            <strong>Utvärdering:</strong> Kravet är uppfyllt. Kontaktuppgifter,
+            adress och öppettider visas utförligt på sidan
+            <code>om-oss.html</code> samt sammanfattat i sidfoten på samtliga
+            sidor.
+          </li>
+          <li>
+            <strong>Krav:</strong> Webbplatsen ska innehålla en presentation av
+            bageriets filosofi, råvaror och hantverksmässiga bakmetoder.<br />
+            <strong>Utvärdering:</strong> Kravet är uppfyllt. På sidan
+            <code>om-oss.html</code> beskrivs bageriets fokus på långtidsjäsning
+            och ekologiskt kulturspannmål från lokala kvarnar.
+          </li>
+          <li>
+            <strong>Krav:</strong> Webbplatsen ska innehålla ett strukturerat
+            sortiment uppdelat i kategorierna surdegsbröd, fikabröd/bullar och
+            tårtor.<br />
+            <strong>Utvärdering:</strong> Kravet är uppfyllt. Sortimentet har
+            delats upp i tre separata undersidor: <code>surdeg.html</code>,
+            <code>fikabrod.html</code> och <code>tartor.html</code>.
+          </li>
+          <li>
+            <strong>Krav:</strong> Varje produkt i sortimentet ska presenteras
+            med produktnamn, pris samt information om ingredienser och
+            allergener.<br />
+            <strong>Utvärdering:</strong> Kravet är uppfyllt. Samtliga
+            produktkort i sortimentet visar produktnamn, pris i kronor,
+            beskrivning samt en specifik förteckning över ingredienser och
+            allergener.
+          </li>
+          <li>
+            <strong>Krav:</strong> Webbplatsen ska ge tydliga instruktioner för
+            hur och när förhandsbeställningar ska göras inför helgen.<br />
+            <strong>Utvärdering:</strong> Kravet är uppfyllt. Både på startsidan
+            (<code>index.html</code>) och på beställningssidan
+            (<code>bestall.html</code>) anges tydligt att förbeställning måste
+            ske senast torsdag kl. 18:00 för helghämtning.
+          </li>
+        </ul>
+
+        <h3>Funktion</h3>
+        <ul>
+          <li>
+            <strong>Krav:</strong> Användaren ska kunna navigera mellan
+            webbplatsens huvuddelar via en genomgående global meny.<br />
+            <strong>Utvärdering:</strong> Kravet är uppfyllt. En enhetlig global
+            meny i sidhuvudet finns på samtliga sidor och markerar den aktiva
+            sidan med klassen <code>.active</code>.
+          </li>
+          <li>
+            <strong>Krav:</strong> Användaren ska inom sortimentsavdelningen
+            kunna växla mellan de olika varukategorierna via en lokal
+            undermeny.<br />
+            <strong>Utvärdering:</strong> Kravet är uppfyllt. En lokal flikmeny
+            finns på sidorna <code>surdeg.html</code>,
+            <code>fikabrod.html</code> och <code>tartor.html</code> och markerar
+            aktiv flik med klassen <code>.active-local</code>.
+          </li>
+          <li>
+            <strong>Krav:</strong> Användaren ska via ett interaktivt formulär
+            kunna skicka en beställningsförfrågan med val av datum, produkttyp
+            och fritext.<br />
+            <strong>Utvärdering:</strong> Kravet är uppfyllt. Sidan
+            <code>bestall.html</code> innehåller ett formulär med textfält,
+            datumväljare, rullgardinsmeny (<code>select</code>), radioknappar,
+            kryssrutor och textruta (<code>textarea</code>).
+          </li>
+        </ul>
+      </section>
+
+      <!-- 6. Användartest (VG-krav) -->
+      <section>
+        <h2>6. Användartest</h2>
+        <h3>- med metoden "Tänka högt" (Thinking Out Loud)</h3>
+        <p>
+          För att utvärdera webbplatsens användbarhet, layout och struktur
+          genomfördes ett användartest enligt metoden "Tänka högt" (Thinking Out
+          Loud). Testet genomfördes enskilt med tre testpersoner med olika
+          bakgrund och vana vid webbplatser. Testperson 1 var min fru, 30 år,
+          som har mycket god datorvana och handlar online ofta, vilket innebär
+          stor erfarenhet av webbnavigering och beställningsflöden. Testperson 2
+          var en 33-åring boende på landsbygden och en uttalad brödentusiast,
+          vilket motsvarar bageriets lokala kärnmålgrupp. Testperson 3 var en
+          42-årig yrkesverksam tvåbarnsförälder med god mobilvana, som främst
+          använde telefonen under korta pauser i vardagen och prioriterade snabb
+          och tydlig information.
+        </p>
+        <p>
+          Testerna genomfördes vid separata tillfällen där jag i egenskap av
+          testledare satt med och observerade deltagarnas skärmar och
+          interaktion i realtid. Testpersonerna instruerades att hela tiden
+          sätta ord på sina tankar, vad de letade efter och hur de upplevde
+          strukturen under tiden de navigerade. Deltagarna fick i uppdrag att
+          genomföra tre uppgifter: att hitta bageriets öppettider och priser,
+          att navigera via den lokala menyn till fikabrödet och granska
+          ingredienser, samt att genomföra en beställningsförfrågan via
+          formuläret. Under testets gång fördes löpande observationsanteckningar
+          över deltagarnas reaktioner och var osäkerheter uppstod.
+        </p>
+        <p>
+          Genom observationerna och deltagarnas reflektioner upptäcktes flera
+          brister i gränssnittet. Framför allt påpekade testpersonerna att
+          sidfoten inte fungerade tillfredsställande. Textfärgen gav för låg
+          kontrast mot den mörka bakgrunden, vilket gjorde kontaktuppgifter och
+          öppettider svårlästa. Dessutom uppmärksammades att innehållet i
+          sidfoten inte var ordentligt linjerat på bredare skärmar, utan
+          kolumnerna spretade ojämnt. Vidare noterades att radioknapparna i
+          beställningsformuläret upplevdes som något trånga att pricka på en
+          mobilskärm samt att den lokala undermenyn behövde en tydligare
+          markering för vilken flik som var aktiv.
+        </p>
+        <p>
+          Utifrån denna återkoppling genomfördes konkreta förbättringar i
+          CSS-koden. Sidfotens textfärg justerades till en ljusare ton med högre
+          kontrast för att säkerställa god läsbarhet mot mörk bakgrund. För att
+          lösa linjeringen i sidfoten strukturerades innehållet om med Flexbox
+          och <code>align-items</code>, vilket gav en jämn och symmetrisk
+          placering av textkolumnerna på bredare skärmar. Slutligen förstorades
+          klickytorna runt formulärets radioknappar samt försågs den lokala
+          menyns aktiva flik (<code>.active-local</code>) med en tydligare
+          bakgrundsplatta för att underlätta orienteringen.
+        </p>
+      </section>
+
+      <!-- Källförteckning -->
+      <section>
+        <h2>Källförteckning</h2>
+        <p>
+          Garrett, J. J. (2011).
+          <em
+            >The Elements of User Experience: User-Centered Design for the Web
+            and Beyond</em
+          >. 2:a uppl. Berkeley: New Riders.
+        </p>
+        <p>
+          Niederst Robbins, J. (2018).
+          <em
+            >Learning Web Design: A Beginner's Guide to HTML, CSS, JavaScript,
+            and Web Graphics</em
+          >. 5:e uppl. Sebastopol: O'Reilly Media.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

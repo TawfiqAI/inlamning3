@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Förhandsbeställning – Braås Brödbod</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Global navigering -->
+    <header class="site-header">
+      <div class="header-container">
+        <div class="logo">
+          <a href="index.html">Braås Brödbod</a>
+        </div>
+        <nav class="global-nav" aria-label="Huvudmeny">
+          <ul>
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="surdeg.html">Sortiment</a></li>
+            <li><a href="om-oss.html">Om oss</a></li>
+            <li><a href="bestall.html" class="active">Beställning</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="form-section">
+        <h1>Förhandsbeställning</h1>
+        <p class="form-intro">
+          Förboka bröd och bakverk inför helgen. Beställningar behöver läggas
+          senast torsdag kl. 18:00 för helgleverans. Betalning sker på plats med
+          Swish eller kort vid upphämtning.
+        </p>
+
+        <!-- Formulär  -->
+        <form class="order-form" action="#" method="post">
+          <!-- Kontaktuppgifter -->
+          <fieldset>
+            <legend>Dina kontaktuppgifter</legend>
+
+            <div class="form-group">
+              <label for="name">För- och efternamn:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Anna Andersson"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-postadress:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="anna@example.se"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Telefonnummer:</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                required
+                placeholder="070-123 45 67"
+              />
+            </div>
+          </fieldset>
+
+          <!-- Beställningsdetaljer -->
+          <fieldset>
+            <legend>Beställningsinformation</legend>
+
+            <!-- Select / Dropdown -->
+            <div class="form-group">
+              <label for="product-category">Välj varukategori:</label>
+              <select id="product-category" name="product-category">
+                <option value="surdeg">Surdegsbröd</option>
+                <option value="fikabrod">Fikabröd &amp; Bullar</option>
+                <option value="tarta">Tårta</option>
+                <option value="blandat">Blandad beställning</option>
+              </select>
+            </div>
+
+            <!-- Datum -->
+            <div class="form-group">
+              <label for="pickup-date">Önskat upphämtningsdatum:</label>
+              <input type="date" id="pickup-date" name="pickup-date" required />
+            </div>
+
+            <!-- Radioknappar -->
+            <div class="form-group">
+              <span class="group-label">Önskad tidpunkt för upphämtning:</span>
+              <div class="radio-options">
+                <label>
+                  <input
+                    type="radio"
+                    name="pickup-time"
+                    value="morgon"
+                    checked
+                  />
+                  Förmiddag (08:00 – 11:00)
+                </label>
+                <label>
+                  <input type="radio" name="pickup-time" value="eftermiddag" />
+                  Eftermiddag (11:00 – 14:00)
+                </label>
+              </div>
+            </div>
+
+            <!-- Textarea -->
+            <div class="form-group">
+              <label for="details">Specificera antal och sorter:</label>
+              <textarea
+                id="details"
+                name="details"
+                rows="4"
+                placeholder="Exempel: 2 st Braås Lantbröd och 4 st Kardemummasnurror..."
+              ></textarea>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-group checkbox-group">
+              <label>
+                <input type="checkbox" name="allergy-notify" value="yes" />
+                Jag har allergier eller specialkost (ange detta i fältet ovan)
+              </label>
+            </div>
+          </fieldset>
+
+          <!-- Skicka-knapp -->
+          <div class="form-actions">
+            <button type="submit" class="btn">Skicka beställning</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-info">
+          <h2>Braås Brödbod</h2>
+          <p>Stationsvägen 4, 363 42 Braås</p>
+          <p>E-post: info@braasbrodbod.se | Tel: 0470-00 00 00</p>
+        </div>
+        <div class="footer-hours">
+          <h2>Öppettider</h2>
+          <p>Fre: 07:00 – 17:00</p>
+          <p>Lör – Sön: 08:00 – 14:00</p>
+        </div>
+        <div class="footer-nav">
+          <h2>Snabblänkar</h2>
+          <p><a href="index.html">Startsida</a></p>
+          <p><a href="bestall.html">Beställning</a></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
